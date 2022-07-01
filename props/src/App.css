@@ -17,11 +17,11 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
 
 .App-link {
@@ -39,20 +39,23 @@
 
 body{
   padding: 2vh 5vw;
-  background: #2C3639;
+  background: #454545;
 }
 
 .movie-item{
-  padding: 1vh 1vw;
   display: inline-block;
-  margin: 2vh 2vw;
+  margin: 40px;
+  justify-content: center;
+  padding: 2vh;
   text-align: center;
-  border: 3px solid skyblue;
-  color : aliceblue
+  background: #0a0a0a;
+  border-radius: 1vh;
+  height: 320px;
 }
 
 .movie-item > h3{
-  width: 15vw;
+  width: 14vw;
+  color: white;
 }
 
 .movie-item > img{

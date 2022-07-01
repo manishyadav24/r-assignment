@@ -1,10 +1,10 @@
 import './App.css';
-import AppScreen from './components/AppScreen';
+import Screen from './components/Screen';
 
 function App() {
   return (
    <>
-     <AppScreen/>
+     <Screen/>
    </>
   );
 }
