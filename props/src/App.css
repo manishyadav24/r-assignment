@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  padding: 2vh 5vw;
+  background: #2C3639;
+}
+
+.movie-item{
+  padding: 1vh 1vw;
+  display: inline-block;
+  margin: 2vh 2vw;
+  text-align: center;
+  border: 3px solid skyblue;
+  color : aliceblue
+}
+
+.movie-item > h3{
+  width: 15vw;
+}
+
+.movie-item > img{
+  width : 200px;
+  height: 250px; 
+}
